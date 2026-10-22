@@ -1,6 +1,10 @@
 import Link from 'next/link';
 import Counter from '@/components/Counter';
 import Card from '@/components/Card';
+import CounterWithLog from '@/components/CounterWithLog';
+import TickTimer from '@/components/TickTimer';
+import GreetingForm from '@/components/GreetingsForm';
+
 
 export default function HomePage() {
   return (
@@ -10,6 +14,15 @@ export default function HomePage() {
       <Link href="/about">Przejdź do strony O nas</Link>
       <Card>
       <Counter />
+      </Card>
+      <Card>
+      <CounterWithLog />
+      </Card>
+      <Card>
+      <TickTimer />
+      </Card>
+      <Card>
+      <GreetingForm/>
       </Card>
     </main>
   );
