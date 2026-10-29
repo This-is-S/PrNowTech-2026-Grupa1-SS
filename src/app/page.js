@@ -24,6 +24,7 @@ export default function HomePage() {
       <Card>
       <GreetingForm/>
       </Card>
+      <span className="highlight">Ważna informacja</span>
     </main>
   );
 } 
