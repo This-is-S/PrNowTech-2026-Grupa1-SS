@@ -4,6 +4,7 @@ import Card from '@/components/Card';
 import CounterWithLog from '@/components/CounterWithLog';
 import TickTimer from '@/components/TickTimer';
 import GreetingForm from '@/components/GreetingsForm';
+import GreetingsFetcher from '@/components/GreetingsFetcher';
 
 
 export default function HomePage() {
@@ -23,6 +24,9 @@ export default function HomePage() {
       </Card>
       <Card>
       <GreetingForm/>
+      </Card>
+      <Card>
+      <GreetingsFetcher/>
       </Card>
       <span className="highlight">Ważna informacja</span>
     </main>
